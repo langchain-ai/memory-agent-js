@@ -1460,10 +1460,10 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.22.5"
 
-"@langchain/langgraph-checkpoint@~0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph-checkpoint/-/langgraph-checkpoint-0.0.9.tgz#fdeb7654b112831161093d2867323e0450706ad8"
-  integrity sha512-9KrTxnKqTCRDxYOsvQ4UOuM878S1Sp4ZUejfGBdZc9yaWGzRGV4aEYJGt8GDSBwBUYd7gz2gNi+q4xtxvwIZig==
+"@langchain/langgraph-checkpoint@^0.0.13", "@langchain/langgraph-checkpoint@~0.0.12":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph-checkpoint/-/langgraph-checkpoint-0.0.13.tgz#b349f1518184e1b154227d1fead2bec1e27707fd"
+  integrity sha512-amdmBcNT8a9xP2VwcEWxqArng4gtRDcnVyVI4DsQIo1Aaz8e8+hH17zSwrUF3pt1pIYztngIfYnBOim31mtKMg==
   dependencies:
     uuid "^10.0.0"
 
@@ -1477,13 +1477,23 @@
     p-retry "4"
     uuid "^9.0.0"
 
-"@langchain/langgraph@^0.2.11":
-  version "0.2.11"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-0.2.11.tgz#b107d88ae92193bc2ddcfa102adb56016adca9d3"
-  integrity sha512-gfjtXDuQ9J7ybyN6oWH/fNcW5DteWlgnO9FJZBJLVInp3tXrT277a/N8IVGqq1Kbm/xLDXdKh6ckJkmhJUHqBg==
+"@langchain/langgraph-sdk@~0.0.21":
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-0.0.31.tgz#186cc2d31bb504d301e227dc7448dd22a8ee1933"
+  integrity sha512-oYZWoC3x7vH9bAL1Y30XjtuWnic1j3knXD4BbldsY0chFLxwIT5i6/GMThNy3Oiwb4SB+c6gvaSuxBNDkp7dkw==
   dependencies:
-    "@langchain/langgraph-checkpoint" "~0.0.9"
-    double-ended-queue "^2.1.0-0"
+    "@types/json-schema" "^7.0.15"
+    p-queue "^6.6.2"
+    p-retry "4"
+    uuid "^9.0.0"
+
+"@langchain/langgraph@^0.2.27":
+  version "0.2.27"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-0.2.27.tgz#d56245f74bf0c73d3d552f93cc64151caac90a23"
+  integrity sha512-7+PlVXlNpswzXzZp/k8O99YBN3zBkUdusfyxISkZ/gdXz1p5RySQEpKQ4EVIZnzBrZ98zZ3FArj4OWOgeF0EeA==
+  dependencies:
+    "@langchain/langgraph-checkpoint" "~0.0.12"
+    "@langchain/langgraph-sdk" "~0.0.21"
     uuid "^10.0.0"
     zod "^3.23.8"
 
@@ -3012,11 +3022,6 @@ dotenv@^16.4.5:
   version "16.4.5"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.4.5.tgz#cdd3b3b604cb327e286b4762e13502f717cb099f"
   integrity sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==
-
-double-ended-queue@^2.1.0-0:
-  version "2.1.0-0"
-  resolved "https://registry.yarnpkg.com/double-ended-queue/-/double-ended-queue-2.1.0-0.tgz#103d3527fd31528f40188130c841efdd78264e5c"
-  integrity sha512-+BNfZ+deCo8hMNpDqDnvT+c0XpJ5cUa6mqYq89bho2Ifze4URTqRkcwR399hWoTrTkbZ/XJYDgP6rc7pRgffEQ==
 
 ecdsa-sig-formatter@1.0.11, ecdsa-sig-formatter@^1.0.11:
   version "1.0.11"
