@@ -15,7 +15,7 @@ import {
 import { GraphAnnotation } from "./state.js";
 import { getStoreFromConfigOrThrow, splitModelAndProvider } from "./utils.js";
 
-console.log("LANG ARGS");
+console.log("LANG... ARGS");
 console.dir(
   Object.fromEntries(
     Object.entries(process.env).filter(([envVar]) => envVar.startsWith("LANG") && !envVar.includes("key"))

@@ -8,8 +8,9 @@
   "env": ".env",
   "store": {
     "index": {
-      "embed": "openai:text-embedding-3-smallerrrr",
+      "embed": "openai:text-embedding-3-small",
       "dims": 1536
     }
-  }
+  },
+  "DOCKERFILE_LINES": ["RUN pip install -U langchain"]
 }
