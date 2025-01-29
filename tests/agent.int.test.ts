@@ -1,5 +1,5 @@
 import { describe, it, expect } from "@jest/globals";
-import { MemorySaver, MemoryStore } from "@langchain/langgraph";
+import { MemorySaver, InMemoryStore } from "@langchain/langgraph";
 import { builder } from "../src/memory_agent/graph.js";
 
 describe("Memory Graph", () => {
@@ -27,7 +27,7 @@ describe("Memory Graph", () => {
   )(
     "should store memories for %s conversation",
     async (_, conversation) => {
-      const memStore = new MemoryStore();
+      const memStore = new InMemoryStore();
       const graph = builder.compile({
         store: memStore,
         checkpointer: new MemorySaver(),
@@ -41,7 +41,12 @@ describe("Memory Graph", () => {
             ],
           },
           {
-            configurable: { userId, thread_id: "thread" },
+            configurable: {
+              userId,
+              thread_id: "thread",
+              model: "gpt-4o-mini",
+              systemPrompt: "You are a helpful assistant.",
+            },
           },
         );
       }
