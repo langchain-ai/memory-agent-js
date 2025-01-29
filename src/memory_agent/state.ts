@@ -1,5 +1,9 @@
 import { BaseMessage } from "@langchain/core/messages";
-import { Annotation, Messages, messagesStateReducer } from "@langchain/langgraph";
+import {
+  Annotation,
+  Messages,
+  messagesStateReducer,
+} from "@langchain/langgraph";
 
 /**
  * Main graph state.
