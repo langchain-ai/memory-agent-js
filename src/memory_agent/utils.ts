@@ -17,16 +17,16 @@ export function getStoreFromConfigOrThrow(
  */
 export function splitModelAndProvider(fullySpecifiedName: string): {
   model: string;
-  provider?: string;
+  modelProvider?: string;
 } {
-  let provider: string | undefined;
+  let modelProvider: string | undefined;
   let model: string;
 
   if (fullySpecifiedName.includes("/")) {
-    [provider, model] = fullySpecifiedName.split("/", 2);
+    [modelProvider, model] = fullySpecifiedName.split("/", 2);
   } else {
     model = fullySpecifiedName;
   }
 
-  return { model, provider };
+  return { model, modelProvider };
 }
