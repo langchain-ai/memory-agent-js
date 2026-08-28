@@ -33,7 +33,7 @@
     "@langchain/langgraph-sdk": "~0.0.82",
     "@langchain/mistralai": "^0.2.0",
     "@langchain/ollama": "^0.2.0",
-    "@langchain/openai": "^0.5.11",
+    "@langchain/openai": "^0.5.12",
     "langchain": "^0.3.27",
     "langsmith": "^0.3.30",
     "ts-node": "^10.9.2",
