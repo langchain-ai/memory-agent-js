@@ -25,7 +25,7 @@
     "@langchain/cohere": "^0.3.3",
     "@langchain/aws": "^0.1.10",
     "@langchain/community": "^0.3.45",
-    "@langchain/core": "^0.3.57",
+    "@langchain/core": "^0.3.80",
     "@langchain/google-genai": "^0.2.10",
     "@langchain/google-vertexai": "^0.2.10",
     "@langchain/groq": "^0.2.2",
