@@ -27,7 +27,7 @@
     "@langchain/community": "^0.3.45",
     "@langchain/core": "^0.3.57",
     "@langchain/google-genai": "^0.2.10",
-    "@langchain/google-vertexai": "^0.2.10",
+    "@langchain/google-vertexai": "^2.3.0",
     "@langchain/groq": "^0.2.2",
     "@langchain/langgraph": "^0.3.0",
     "@langchain/langgraph-sdk": "~0.0.82",
