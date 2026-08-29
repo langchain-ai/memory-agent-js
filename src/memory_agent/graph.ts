@@ -15,8 +15,6 @@ import {
 import { GraphAnnotation } from "./state.js";
 import { getStoreFromConfigOrThrow, splitModelAndProvider } from "./utils.js";
 
-const llm = await initChatModel();
-
 async function callModel(
   state: typeof GraphAnnotation.State,
   config: LangGraphRunnableConfig,
@@ -39,17 +37,18 @@ async function callModel(
     .replace("{user_info}", formatted)
     .replace("{time}", new Date().toISOString());
 
+  const modelConfig = splitModelAndProvider(configurable.model);
+  const llm = await initChatModel(modelConfig.model, {
+    modelProvider: modelConfig.provider,
+  });
   const tools = initializeTools(config);
-  const boundLLM = llm.bind({
-    tools: tools,
+  const boundLLM = llm.bindTools(tools, {
     tool_choice: "auto",
   });
 
   const result = await boundLLM.invoke(
     [{ role: "system", content: sys }, ...state.messages],
-    {
-      configurable: splitModelAndProvider(configurable.model),
-    },
+    {},
   );
 
   return { messages: [result] };
