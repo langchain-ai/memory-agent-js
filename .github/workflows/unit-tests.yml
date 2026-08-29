@@ -19,7 +19,7 @@ jobs:
     name: Unit Tests
     strategy:
       matrix:
-        os: [ubuntu-latest]
+        os: [ubuntu-24.04]
         node-version: [18.x, 20.x]
     runs-on: ${{ matrix.os }}
     steps:
