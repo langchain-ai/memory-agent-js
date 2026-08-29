@@ -9,7 +9,7 @@
   "type": "module",
   "packageManager": "yarn@1.22.22",
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "scripts": {
     "build": "tsc",
@@ -36,7 +36,7 @@
     "@langchain/langgraph-sdk": "~1.10.0",
     "@langchain/mistralai": "^1.2.0",
     "@langchain/ollama": "^1.3.0",
-    "@langchain/openai": "1.5.8",
+    "@langchain/openai": "^1.5.10",
     "langchain": "^1.5.10",
     "langsmith": "^0.9.0",
     "ts-node": "^10.9.2",

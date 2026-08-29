@@ -46,10 +46,10 @@ async function callModel(
     tool_choice: "auto",
   });
 
-  const result = await boundLLM.invoke(
-    [{ role: "system", content: sys }, ...state.messages],
-    {},
-  );
+  const result = await boundLLM.invoke([
+    { role: "system", content: sys },
+    ...state.messages,
+  ]);
 
   return { messages: [result] };
 }
