@@ -37,7 +37,7 @@
     "test:all": "yarn test && yarn test:int && yarn lint:langgraph"
   },
   "dependencies": {
-    "@langchain/anthropic": "^1.5.8",
+    "@langchain/anthropic": "^1.5.9",
     "@langchain/aws": "^1.4.4",
     "@langchain/cohere": "^1.1.0",
     "@langchain/community": "^1.1.29",
