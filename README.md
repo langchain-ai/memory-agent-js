@@ -85,7 +85,7 @@ We have provided a few example evaluation cases in [the test file here](./tests/
 
 1. Customize memory content: we've defined a simple memory structure `content: string, context: string` for each memory, but you could structure them in other ways.
 2. Provide additional tools: the bot will be more useful if you connect it to other functions.
-3. Select a different model: We default to anthropic/claude-3-5-sonnet-20240620. You can select a compatible chat model using provider/model-name via configuration. Example: openai/gpt-4.
+3. Select a different model: We default to anthropic/claude-sonnet-5. You can select a compatible chat model using provider/model-name via configuration. Example: openai/gpt-4.
 4. Customize the prompts: We provide a default prompt in the [prompts.ts](src/memory_agent/prompts.ts) file. You can easily update this via configuration.
 
 <!--
