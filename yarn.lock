@@ -1795,14 +1795,24 @@
     p-queue "^9.0.1"
     p-retry "^7.1.1"
 
-"@langchain/langgraph@^1.4.10", "@langchain/langgraph@^1.4.13":
-  version "1.4.13"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-1.4.13.tgz#168ab4f05c212fd5ab4b2816bcad2e963b345101"
-  integrity sha512-LO1ak6jNQ9jR13tm7Ay4Yh2/otrH7LNVUwWTAI7WJigVdW5Fb6LuYSZUzVn4S7sVSiyVFfnrUcDTd8c7eAzPrQ==
+"@langchain/langgraph-sdk@~1.11.2":
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-1.11.2.tgz#11f220bb9c40cac1ddcb2025bf5250f83db96725"
+  integrity sha512-b2s4qdFKePgZudPJZfDCtQOmVfHoiKCTgSSdOxXtMYZzg9A+g2kI/ll1ZPMYIydGE3QIgGLIhyFCz5ULedi5Nw==
+  dependencies:
+    "@langchain/protocol" "^0.0.19"
+    "@types/json-schema" "^7.0.15"
+    p-queue "^9.0.1"
+    p-retry "^7.1.1"
+
+"@langchain/langgraph@^1.4.10", "@langchain/langgraph@^1.4.17":
+  version "1.4.17"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-1.4.17.tgz#409f60916d807e46cef7069f9f046159fb2263cb"
+  integrity sha512-gkd34M42D5SdRaaHS6NSD+zTuZBgmEqecld3BenVlql11WshvarKH/2ZQbNmQQ0knbHgtaQEg3VeH0bUFt2B1Q==
   dependencies:
     "@langchain/langgraph-checkpoint" "^1.1.5"
-    "@langchain/langgraph-sdk" "~1.10.0"
-    "@langchain/protocol" "^0.0.18"
+    "@langchain/langgraph-sdk" "~1.11.2"
+    "@langchain/protocol" "^0.0.19"
     "@standard-schema/spec" "1.1.0"
 
 "@langchain/mistralai@^1.2.0":
@@ -1836,11 +1846,6 @@
     js-tiktoken "^1.0.12"
     openai "^7.5.0"
     zod "^3.25.76 || ^4"
-
-"@langchain/protocol@^0.0.18":
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/@langchain/protocol/-/protocol-0.0.18.tgz#6d96155e7263c958fbce6d4b7241b4725b72fbad"
-  integrity sha512-XW1egQtPfsGI41w2AMZNFZrUIwFSQHTjVMZs0OaTpCAvht/QLoaPN8FQcsysMVypOhupG28J29yOorrc70otBQ==
 
 "@langchain/protocol@^0.0.19":
   version "0.0.19"
