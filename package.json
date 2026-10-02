@@ -54,7 +54,7 @@
     "langsmith": "^0.10.5",
     "ts-node": "^10.9.2",
     "uuid": "^14.0.2",
-    "zod": "^4.5.4"
+    "zod": "^4.6.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.6",
