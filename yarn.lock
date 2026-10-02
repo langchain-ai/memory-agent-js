@@ -1733,10 +1733,10 @@
     uuid "^14.0.0"
     zod "^3.25.76 || ^4"
 
-"@langchain/core@^1.2.9":
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/@langchain/core/-/core-1.2.9.tgz#4f5fb27ba07c51ce4fb8e1dc32eb36945737afa1"
-  integrity sha512-conzSEj9Zu1AyXJLXsSbgrtxtxinmI1yGqQ5CIJZSoV5rvv+yvQE/vgBnoySpBQ/bl3YPgj2FL/gbDjWykLSfg==
+"@langchain/core@^1.2.13":
+  version "1.2.13"
+  resolved "https://registry.yarnpkg.com/@langchain/core/-/core-1.2.13.tgz#4ea4eb0308a25af350f75de2fbf34aecb819177e"
+  integrity sha512-ADGTxZ84n3civruUX1LlTOdua/PDGoni2U6TmKTX7hvRU2Jlepu8vLJI4Wnwj45KUKhUCrW94Il12Q2bxE3e8A==
   dependencies:
     "@cfworker/json-schema" "^4.0.2"
     "@standard-schema/spec" "^1.1.0"
