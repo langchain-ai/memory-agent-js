@@ -1795,23 +1795,23 @@
     p-queue "^9.0.1"
     p-retry "^7.1.1"
 
-"@langchain/langgraph-sdk@~1.11.2":
-  version "1.11.2"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-1.11.2.tgz#11f220bb9c40cac1ddcb2025bf5250f83db96725"
-  integrity sha512-b2s4qdFKePgZudPJZfDCtQOmVfHoiKCTgSSdOxXtMYZzg9A+g2kI/ll1ZPMYIydGE3QIgGLIhyFCz5ULedi5Nw==
+"@langchain/langgraph-sdk@~1.12.1":
+  version "1.12.3"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-1.12.3.tgz#a30d94308f40971f2f31cf027f26d12ed7072afd"
+  integrity sha512-o5Qd1pepsJKHmHGIcWhOlZe2fvlPs2AEkVOxqzbL3R8IiMBPH2gNG8/kwK36czEnagiJtu4RUn02mKbGRwd5dQ==
   dependencies:
     "@langchain/protocol" "^0.0.19"
     "@types/json-schema" "^7.0.15"
     p-queue "^9.0.1"
     p-retry "^7.1.1"
 
-"@langchain/langgraph@^1.4.10", "@langchain/langgraph@^1.4.17":
-  version "1.4.17"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-1.4.17.tgz#409f60916d807e46cef7069f9f046159fb2263cb"
-  integrity sha512-gkd34M42D5SdRaaHS6NSD+zTuZBgmEqecld3BenVlql11WshvarKH/2ZQbNmQQ0knbHgtaQEg3VeH0bUFt2B1Q==
+"@langchain/langgraph@^1.4.10", "@langchain/langgraph@^1.4.19":
+  version "1.4.19"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-1.4.19.tgz#05ff3ed892c2eb55fbd20d6075fa4629499a043c"
+  integrity sha512-wfT1Nyfwnu/N56piXRXxX6SQQ48ju6rqkGOQPD3/9laSB91ht+pVnq97/3FKO+LybvXfXKiBkfxyIlumdBhIQQ==
   dependencies:
     "@langchain/langgraph-checkpoint" "^1.1.5"
-    "@langchain/langgraph-sdk" "~1.11.2"
+    "@langchain/langgraph-sdk" "~1.12.1"
     "@langchain/protocol" "^0.0.19"
     "@standard-schema/spec" "1.1.0"
 
