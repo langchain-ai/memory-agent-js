@@ -1780,10 +1780,10 @@
   dependencies:
     groq-sdk "^1.2.1"
 
-"@langchain/langgraph-checkpoint@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph-checkpoint/-/langgraph-checkpoint-1.1.5.tgz#c793177f9afcce31a1e9922f317f88fec1254282"
-  integrity sha512-BwDwl5VeTOh6CVuiIPgsUgfK51vTJDMSbFcSCUfjJWsl8/DPdK/mbv+ejxJstkSk/BlSPMP4JfXWcN6jD2ea2Q==
+"@langchain/langgraph-checkpoint@^1.1.5", "@langchain/langgraph-checkpoint@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph-checkpoint/-/langgraph-checkpoint-1.1.6.tgz#df833a5f3a4f42b969cc9f7682c193c274f481c5"
+  integrity sha512-CpDMGTY4Y6qzoGewMoL8MS9Ej35vyrrchbRpKCtUDWnHhrf4lbHp7wnu9dsHaavB3Z+M6aVRl+9GNQbIJVV1dg==
 
 "@langchain/langgraph-sdk@~1.10.0":
   version "1.10.0"
@@ -1795,23 +1795,23 @@
     p-queue "^9.0.1"
     p-retry "^7.1.1"
 
-"@langchain/langgraph-sdk@~1.11.2":
-  version "1.11.2"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-1.11.2.tgz#11f220bb9c40cac1ddcb2025bf5250f83db96725"
-  integrity sha512-b2s4qdFKePgZudPJZfDCtQOmVfHoiKCTgSSdOxXtMYZzg9A+g2kI/ll1ZPMYIydGE3QIgGLIhyFCz5ULedi5Nw==
+"@langchain/langgraph-sdk@~1.12.3":
+  version "1.12.3"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-1.12.3.tgz#a30d94308f40971f2f31cf027f26d12ed7072afd"
+  integrity sha512-o5Qd1pepsJKHmHGIcWhOlZe2fvlPs2AEkVOxqzbL3R8IiMBPH2gNG8/kwK36czEnagiJtu4RUn02mKbGRwd5dQ==
   dependencies:
     "@langchain/protocol" "^0.0.19"
     "@types/json-schema" "^7.0.15"
     p-queue "^9.0.1"
     p-retry "^7.1.1"
 
-"@langchain/langgraph@^1.4.10", "@langchain/langgraph@^1.4.17":
-  version "1.4.17"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-1.4.17.tgz#409f60916d807e46cef7069f9f046159fb2263cb"
-  integrity sha512-gkd34M42D5SdRaaHS6NSD+zTuZBgmEqecld3BenVlql11WshvarKH/2ZQbNmQQ0knbHgtaQEg3VeH0bUFt2B1Q==
+"@langchain/langgraph@^1.4.13", "@langchain/langgraph@^1.4.17":
+  version "1.4.21"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-1.4.21.tgz#390a2c36901b403faa7f5dae2064d18942300d12"
+  integrity sha512-0LRyRw594IO98etnnBCM6nhckVjWGNnObpdaQij1e+u+GsUwGvn9P4/P42UAJG56WFF72A9n93WwCOW7Mq9yug==
   dependencies:
-    "@langchain/langgraph-checkpoint" "^1.1.5"
-    "@langchain/langgraph-sdk" "~1.11.2"
+    "@langchain/langgraph-checkpoint" "^1.1.6"
+    "@langchain/langgraph-sdk" "~1.12.3"
     "@langchain/protocol" "^0.0.19"
     "@standard-schema/spec" "1.1.0"
 
@@ -5692,12 +5692,12 @@ kleur@^3.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-langchain@^1.5.10:
-  version "1.5.10"
-  resolved "https://registry.yarnpkg.com/langchain/-/langchain-1.5.10.tgz#197c69869a458c6a695852084e7f817a54b22d2b"
-  integrity sha512-JaC12C1qyGn985vvjttr4hr8lfFzWhrXp2M1byZJGmNJ2RiIgqnhiYDuLlG/xHDxhKD3onJ5pCuUif/cbdqPhA==
+langchain@^1.5.14:
+  version "1.5.14"
+  resolved "https://registry.yarnpkg.com/langchain/-/langchain-1.5.14.tgz#be3cf420b2eea6a738976fbb377f8efdc606a6e7"
+  integrity sha512-/orHDk5xbNSIJc9UhwmxFYHXbr/3RaBeQ3zX0xovEWfPg7Lmj8EJCMOXIUTCe2UtsFgfbyWtlwh51NM562LnZQ==
   dependencies:
-    "@langchain/langgraph" "^1.4.10"
+    "@langchain/langgraph" "^1.4.13"
     "@langchain/langgraph-checkpoint" "^1.1.5"
     langsmith ">=0.5.0 <1.0.0"
     zod "^3.25.76 || ^4"
