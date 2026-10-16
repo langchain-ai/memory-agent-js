@@ -1780,10 +1780,10 @@
   dependencies:
     groq-sdk "^1.2.1"
 
-"@langchain/langgraph-checkpoint@^1.1.5", "@langchain/langgraph-checkpoint@^1.1.6":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph-checkpoint/-/langgraph-checkpoint-1.1.6.tgz#df833a5f3a4f42b969cc9f7682c193c274f481c5"
-  integrity sha512-CpDMGTY4Y6qzoGewMoL8MS9Ej35vyrrchbRpKCtUDWnHhrf4lbHp7wnu9dsHaavB3Z+M6aVRl+9GNQbIJVV1dg==
+"@langchain/langgraph-checkpoint@^1.1.5", "@langchain/langgraph-checkpoint@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph-checkpoint/-/langgraph-checkpoint-1.2.0.tgz#e2df33d1d492e52b3b8adff558b3d709298923db"
+  integrity sha512-a9F1tO/bKGS4AlLR0FVa859oImD0iQiQLAAPkP66Nnp7a5dXPgys2IpzdJQ9slKiVznsSAFjxxNCmM25dBOvWA==
 
 "@langchain/langgraph-sdk@~1.10.0":
   version "1.10.0"
@@ -1795,23 +1795,23 @@
     p-queue "^9.0.1"
     p-retry "^7.1.1"
 
-"@langchain/langgraph-sdk@~1.12.3":
-  version "1.12.3"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-1.12.3.tgz#a30d94308f40971f2f31cf027f26d12ed7072afd"
-  integrity sha512-o5Qd1pepsJKHmHGIcWhOlZe2fvlPs2AEkVOxqzbL3R8IiMBPH2gNG8/kwK36czEnagiJtu4RUn02mKbGRwd5dQ==
+"@langchain/langgraph-sdk@~1.12.4":
+  version "1.12.4"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-1.12.4.tgz#1b3b02d631a6b829942b45e536e0137e9ab8c42e"
+  integrity sha512-DuYk7HbajphOzBBtZYm+4LpCZuHj1/Csqepej5Ro1PJvchotA+bjg9XLh9LRsbz5j49Tl3owNoUp9ezj0lMCXA==
   dependencies:
     "@langchain/protocol" "^0.0.19"
     "@types/json-schema" "^7.0.15"
     p-queue "^9.0.1"
     p-retry "^7.1.1"
 
-"@langchain/langgraph@^1.4.13", "@langchain/langgraph@^1.4.17":
-  version "1.4.21"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-1.4.21.tgz#390a2c36901b403faa7f5dae2064d18942300d12"
-  integrity sha512-0LRyRw594IO98etnnBCM6nhckVjWGNnObpdaQij1e+u+GsUwGvn9P4/P42UAJG56WFF72A9n93WwCOW7Mq9yug==
+"@langchain/langgraph@^1.4.13", "@langchain/langgraph@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-1.5.0.tgz#2cf85f1bf29ab1f9fbd8bbdbdb2452146e5753b2"
+  integrity sha512-nYBV1vkWtAdU9GFDzdnPKiEMZVXerqCadRcyRtjTnd6Z4nIPmyB4SGSKioQFjSWBZK6nd/RIoyQVhjnLpw9oxQ==
   dependencies:
-    "@langchain/langgraph-checkpoint" "^1.1.6"
-    "@langchain/langgraph-sdk" "~1.12.3"
+    "@langchain/langgraph-checkpoint" "^1.2.0"
+    "@langchain/langgraph-sdk" "~1.12.4"
     "@langchain/protocol" "^0.0.19"
     "@standard-schema/spec" "1.1.0"
 
