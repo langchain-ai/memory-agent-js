@@ -1800,23 +1800,23 @@
     p-queue "^9.0.1"
     p-retry "^7.1.1"
 
-"@langchain/langgraph-sdk@~1.12.4":
-  version "1.12.4"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-1.12.4.tgz#1b3b02d631a6b829942b45e536e0137e9ab8c42e"
-  integrity sha512-DuYk7HbajphOzBBtZYm+4LpCZuHj1/Csqepej5Ro1PJvchotA+bjg9XLh9LRsbz5j49Tl3owNoUp9ezj0lMCXA==
+"@langchain/langgraph-sdk@~1.12.5":
+  version "1.12.7"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-1.12.7.tgz#c4ee9d167b4d7ed37aff803b842f9350b6e59b54"
+  integrity sha512-+tIY6oVDDt9e3LnDKs4Qqe3nFJSY7amDUofro7me0kZ8QbaJhFViQL0LaX30SQhIaHuCLZYMRIluhuFSOPjF8g==
   dependencies:
-    "@langchain/protocol" "^0.0.19"
+    "@langchain/protocol" "^0.0.20"
     "@types/json-schema" "^7.0.15"
     p-queue "^9.0.1"
     p-retry "^7.1.1"
 
-"@langchain/langgraph@^1.4.13", "@langchain/langgraph@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-1.5.0.tgz#2cf85f1bf29ab1f9fbd8bbdbdb2452146e5753b2"
-  integrity sha512-nYBV1vkWtAdU9GFDzdnPKiEMZVXerqCadRcyRtjTnd6Z4nIPmyB4SGSKioQFjSWBZK6nd/RIoyQVhjnLpw9oxQ==
+"@langchain/langgraph@^1.4.13", "@langchain/langgraph@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-1.5.1.tgz#237db9a7a4313abdf7eaa408916c731b18983fcf"
+  integrity sha512-3eGahcGgqlzHhG9FxEMFjfSPvI7As0APmd47HQdF1og2vLjMA1PQpTrmCnlLWcgLCrRflUvYqzS/FDMMh2saFA==
   dependencies:
     "@langchain/langgraph-checkpoint" "^1.2.0"
-    "@langchain/langgraph-sdk" "~1.12.4"
+    "@langchain/langgraph-sdk" "~1.12.5"
     "@langchain/protocol" "^0.0.19"
     "@standard-schema/spec" "1.1.0"
 
@@ -1856,6 +1856,11 @@
   version "0.0.19"
   resolved "https://registry.yarnpkg.com/@langchain/protocol/-/protocol-0.0.19.tgz#7fe43fed115dc34b3b4c246e8d5283fbcbfab7b0"
   integrity sha512-9hKcRrH7cBX6gfutdfXPoft1OCchHe4FEpALoDJMl5Qu+n/YG5ynZmyu8+8cxORlPwHBoKTxggvXz+76M1yX1Q==
+
+"@langchain/protocol@^0.0.20":
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/@langchain/protocol/-/protocol-0.0.20.tgz#441a57a6176f634306d9214da65d35033355d5e9"
+  integrity sha512-sxlkDG2/HGyjDFLTJ8B/o3oglRjOv8iLCFgrV0550/Vym3V6RZ0SUjAQFe8jrLQw8ZXjERy3swJp5OODBSrUYA==
 
 "@langchain/textsplitters@1.0.1":
   version "1.0.1"
