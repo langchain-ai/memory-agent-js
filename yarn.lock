@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@anthropic-ai/sdk@^0.120.0":
-  version "0.120.0"
-  resolved "https://registry.yarnpkg.com/@anthropic-ai/sdk/-/sdk-0.120.0.tgz#3304ad822cd57a764dc081bcd66e44999ec1be5d"
-  integrity sha512-ZlvmNFT/iIF6JD13rxbbMWD8nvGR0RaUp6yMQnoc+4Af0YjVVe/bIdW1XSQQsoxXAtg1NaT6Vak0LKFlJ4d37Q==
+"@anthropic-ai/sdk@^0.122.0":
+  version "0.122.0"
+  resolved "https://registry.yarnpkg.com/@anthropic-ai/sdk/-/sdk-0.122.0.tgz#9dd620dd0a98405b81e9b39f1b752d13d1c76ff8"
+  integrity sha512-GGPNftt0caaz9MDlmNQGHX8855Ojaduyy5pm9Sm1h7HalCn0cWNb5/bweadJF+4yzbal+QL6ztBa09WAAOzLmQ==
   dependencies:
     json-schema-to-ts "^3.1.1"
     standardwebhooks "^1.0.0"
@@ -1682,12 +1682,12 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@langchain/anthropic@^1.5.9":
-  version "1.5.9"
-  resolved "https://registry.yarnpkg.com/@langchain/anthropic/-/anthropic-1.5.9.tgz#6671f11914208efc8b2858e760887cf008f6aa19"
-  integrity sha512-KENFWcb4f+vlbE49wDm/DV6CLX+BaL/8aAMWwkINwc/2ZW79HSY2nwFpFdmV10CPGBwfpiWFUZRBqvX+xw2idg==
+"@langchain/anthropic@^1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@langchain/anthropic/-/anthropic-1.5.12.tgz#558576c00b665961011192b2a558d9f1eb216258"
+  integrity sha512-tVvI94zAtG6isYxBzL7hlbxfbqjmvx/BqBWAov7v+bABKYz3fZHFI2Io1UI5UzU+h/5SuC1qXUV+JxnaqylJJw==
   dependencies:
-    "@anthropic-ai/sdk" "^0.120.0"
+    "@anthropic-ai/sdk" "^0.122.0"
     zod "^3.25.76 || ^4"
 
 "@langchain/aws@^1.4.6":
