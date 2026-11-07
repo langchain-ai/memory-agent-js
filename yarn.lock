@@ -5727,10 +5727,10 @@ langchain@^1.5.14:
     langsmith ">=0.5.0 <1.0.0"
     zod "^3.25.76 || ^4"
 
-"langsmith@>=0.4.0 <1.0.0", "langsmith@>=0.5.0 <1.0.0", langsmith@^0.10.8:
-  version "0.10.8"
-  resolved "https://registry.yarnpkg.com/langsmith/-/langsmith-0.10.8.tgz#8ee42365f6736000ca80f1ed28d4f008a9441225"
-  integrity sha512-svLrSnytr4cwZvx5XAel93fXRB1/OmC/u7tfXhnmyMpxIazPLDKKaMQYxGIjCvCRGhprmp9P4RiKM8ecZU46Mg==
+"langsmith@>=0.4.0 <1.0.0", "langsmith@>=0.5.0 <1.0.0", langsmith@^0.11.7:
+  version "0.11.7"
+  resolved "https://registry.yarnpkg.com/langsmith/-/langsmith-0.11.7.tgz#59a60af8411ca2014f08ed5806c74076135c9f0e"
+  integrity sha512-ItiCV3YhUuWHWT92odob5PhEUMY+ixHa03Fixsgwk/EIPEiRgUIZRBQSB8LCm87ypuUhgIwgw01z1gxPX5qTWg==
   dependencies:
     p-queue "6.6.2"
 
