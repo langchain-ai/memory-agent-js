@@ -28,8 +28,8 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --testPathPattern=\\.test\\.ts$ --testPathIgnorePatterns=\\.int\\.test\\.ts$",
-    "test:int": "node --experimental-vm-modules node_modules/jest/bin/jest.js --testPathPattern=\\.int\\.test\\.ts$",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --testPathPatterns=\\.test\\.ts$ --testPathIgnorePatterns=\\.int\\.test\\.ts$",
+    "test:int": "node --experimental-vm-modules node_modules/jest/bin/jest.js --testPathPatterns=\\.int\\.test\\.ts$",
     "format": "prettier --write .",
     "lint": "eslint src",
     "format:check": "prettier --check .",
