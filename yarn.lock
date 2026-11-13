@@ -1670,16 +1670,6 @@
   resolved "https://registry.yarnpkg.com/@langchain/langgraph-checkpoint/-/langgraph-checkpoint-1.2.2.tgz#cbfdf0d461385769665e26f70e41f1291ed1d37e"
   integrity sha512-KL3nzi7I61ll5nANCQe5RoJ5SqTFrE+si9IK6k7IIj9OrPkIKT/Dz0w8CyJF+K7OEuJfA33HvPrZqfzzW1DXDA==
 
-"@langchain/langgraph-sdk@~1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-1.10.0.tgz#6ec1364a97caf615983161ae1f00b196897b9cd6"
-  integrity sha512-cPPkh+hMNgeOaGtJRrqs1AjZde45cG2+Ma9Sc10wz2RyvT8SKToCKS+VvkS18SsLajnmq6/FKVmthq6rnUVYOw==
-  dependencies:
-    "@langchain/protocol" "^0.0.19"
-    "@types/json-schema" "^7.0.15"
-    p-queue "^9.0.1"
-    p-retry "^7.1.1"
-
 "@langchain/langgraph-sdk@~1.15.0":
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-1.15.0.tgz#36085320cc087b34ffc43b2a3d0d96baae825e9e"
@@ -1731,11 +1721,6 @@
     js-tiktoken "^1.0.12"
     openai "^7.10.0"
     zod "^3.25.76 || ^4"
-
-"@langchain/protocol@^0.0.19":
-  version "0.0.19"
-  resolved "https://registry.yarnpkg.com/@langchain/protocol/-/protocol-0.0.19.tgz#7fe43fed115dc34b3b4c246e8d5283fbcbfab7b0"
-  integrity sha512-9hKcRrH7cBX6gfutdfXPoft1OCchHe4FEpALoDJMl5Qu+n/YG5ynZmyu8+8cxORlPwHBoKTxggvXz+76M1yX1Q==
 
 "@langchain/protocol@^0.0.21":
   version "0.0.21"
