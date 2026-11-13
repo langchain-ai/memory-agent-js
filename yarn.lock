@@ -1644,10 +1644,10 @@
     "@langchain/google-common" "2.3.4"
     google-auth-library "^11.1.0"
 
-"@langchain/google-genai@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@langchain/google-genai/-/google-genai-2.3.2.tgz#48a2756bdf0bc34b8671c26bb4f12cb424a90c9c"
-  integrity sha512-wiiHx3aBJmWJcKmYs/4xZo5KNRICYjdbwegtmH8ega7liYFKBY6e1F4ocMNL+ylApaRIYeO54ceAHNbKmRVHeQ==
+"@langchain/google-genai@^2.3.4":
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/@langchain/google-genai/-/google-genai-2.3.4.tgz#a257ea029c5749583607419376dde0322fc174f7"
+  integrity sha512-Hq7lEtiQd5KiPquGjwKwzGg/JgbqSQia7CINLjJKoQ4FtolRuxj/mYDql0XZIMTAZJD93eeOk9wo3klEgueMYQ==
   dependencies:
     "@google/generative-ai" "^0.24.1"
 
