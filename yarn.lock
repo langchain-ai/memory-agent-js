@@ -1142,10 +1142,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@cfworker/json-schema@^4.0.2":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@cfworker/json-schema/-/json-schema-4.1.0.tgz#cc114da98c23b12f4cd4673ce8a076be24e0233c"
-  integrity sha512-/vYKi/qMxwNsuIJ9WGWwM2rflY40ZenK3Kh4uR5vB9/Nz12Y7IUN/Xf4wDA7vzPfw0VNh3b/jz4+MjcVgARKJg==
+"@cfworker/json-schema@^4.1.4":
+  version "4.1.6"
+  resolved "https://registry.yarnpkg.com/@cfworker/json-schema/-/json-schema-4.1.6.tgz#4ae859f7536206c8716b3c44f8e644f00edf97c7"
+  integrity sha512-YzVGTHXf4bzlyAL5KAvHYCdNbbt6zM5cYkAgxqxQPDQM6aZ4ShIIN5yJ+6q7YeonnevxT8k/LmD2tJi/jOiKkg==
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
@@ -1618,12 +1618,12 @@
     uuid "^14.0.0"
     zod "^3.25.76 || ^4"
 
-"@langchain/core@^1.3.4":
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/@langchain/core/-/core-1.3.4.tgz#3cf27b5a7b146dc1dd38decc385bd13fcb8b330d"
-  integrity sha512-4LnkVpxOzA4BuMPuAQKDDf4SujSzd4WahKk51eyUJzSEsQjyGpbyAgDRWPYr3wzgtAJ59UXewemsyIxRKTXFrA==
+"@langchain/core@^1.3.6":
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/@langchain/core/-/core-1.3.6.tgz#e1232763225de639d4de2a5302964923a462a584"
+  integrity sha512-naTWT669aLrNzfoecyiLenx5W2MFRn8EaM2dAmjlYt/b5Tx5zswHdhgAuli7kW/c2R6+kn269yte0dRQ9sJyOw==
   dependencies:
-    "@cfworker/json-schema" "^4.0.2"
+    "@cfworker/json-schema" "^4.1.4"
     "@standard-schema/spec" "^1.1.0"
     js-tiktoken "^1.0.12"
     langsmith ">=0.11.0 <1.0.0"
