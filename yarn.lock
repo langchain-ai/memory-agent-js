@@ -1690,10 +1690,10 @@
     p-queue "^9.0.1"
     p-retry "^7.1.1"
 
-"@langchain/langgraph@^1.4.18", "@langchain/langgraph@^1.5.1":
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-1.7.2.tgz#17ab677766966acb12359100e1d62efbe699a566"
-  integrity sha512-xkyVqLT3NDWXmm7uh15nWIBXfn5BkTX8V7sKkP4fGG0AJSttzzIt/izJ03xKEmVcNOgeSyWhPKrsoQg8+MB3MQ==
+"@langchain/langgraph@^1.4.18", "@langchain/langgraph@^1.7.3":
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph/-/langgraph-1.7.3.tgz#c66e7a522e671fd810a951e7bb2ea43127b0fcc5"
+  integrity sha512-QKZs9OEy6T2BWQAZUd0EsSLV6/ENOUehsr13b52qdWGaYhutWt4QEyuSrlu3QDPg3uSQQ6JyKKZG0ZT3KOwpIw==
   dependencies:
     "@langchain/langgraph-checkpoint" "^1.2.2"
     "@langchain/langgraph-sdk" "~1.15.0"
