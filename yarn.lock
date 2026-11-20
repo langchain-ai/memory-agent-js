@@ -1723,13 +1723,13 @@
     openai "^7.5.0"
     zod "^3.25.76 || ^4"
 
-"@langchain/openai@1.8.0", "@langchain/openai@^1.4.1":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@langchain/openai/-/openai-1.8.0.tgz#b63031c26758a4e3c9bb702d7a0630217016a298"
-  integrity sha512-HstN9V0rUkNnOyzMSylP2e5z6VbyuZXyoliuepO2Tf59bezrhvB/sljLfREN1lAGsy4YysD5hUeCN/2ynAZKjQ==
+"@langchain/openai@1.8.2", "@langchain/openai@^1.4.1":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@langchain/openai/-/openai-1.8.2.tgz#e4412e6b1afad724adf47a93e0943b893675e7df"
+  integrity sha512-pA0ns3ikApRpCbvrShDqmIkPisbbZ3Ygr1HSsmJdrl+gqkVBeLKxS+P0c+DIpzXKoGVg0nuvQCb/ZXLM5Ti+iw==
   dependencies:
     js-tiktoken "^1.0.12"
-    openai "^7.45.1"
+    openai "^7.47.0"
     zod "^3.25.76 || ^4"
 
 "@langchain/protocol@^0.0.21":
@@ -5795,10 +5795,10 @@ onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-openai@^7.45.1, openai@^7.5.0:
-  version "7.56.0"
-  resolved "https://registry.yarnpkg.com/openai/-/openai-7.56.0.tgz#b410eac3979b6835e9d95cc76986d9f0d2ea415b"
-  integrity sha512-viGsb+pfPxaRqnap556J4vScLNXPzRRFAQ7dbWKvDaeyY5rleW3vEKnw7Mo4gnnee2kYOhppHXZS1b5JH42HCw==
+openai@^7.47.0, openai@^7.5.0:
+  version "7.61.0"
+  resolved "https://registry.yarnpkg.com/openai/-/openai-7.61.0.tgz#ac2a0ebec54f7b4a5a342f302f5a188cb0e458b1"
+  integrity sha512-Tl030M8hWYLIloVJo0UKaIwpzGxBASgeR8/Fa+rOJAhQQSVSSv4jYp0rdDmPmUkox13x/t3jlCoklPkcOCqKFg==
 
 openapi-types@^12.1.3:
   version "12.1.3"
