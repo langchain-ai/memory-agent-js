@@ -1680,10 +1680,10 @@
     p-queue "^9.0.1"
     p-retry "^7.1.1"
 
-"@langchain/langgraph-sdk@~1.16.0":
-  version "1.16.0"
-  resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-1.16.0.tgz#fa16acb586b1476c2aaf78944646467d96924f89"
-  integrity sha512-E1NZJDHmHxKBqbxGGahNSlvpI8oUo7UKs+Ce4XhGz2tvXRAyQfZeQppVzFkeQsYpueXvFiyMYuyUXz9X98/4+A==
+"@langchain/langgraph-sdk@~1.17.0":
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/@langchain/langgraph-sdk/-/langgraph-sdk-1.17.0.tgz#eda9c797f8c606e1adee45e4abc8ebf96256c5e4"
+  integrity sha512-m6fAzU7N5yXyG+9QY3A/92tXiT8KXj2hz2wa0XpC7h6DLg0ynNjaVHeyZPxyAd5ioEw9ylUabreSdE7HrZt5Ag==
   dependencies:
     "@langchain/protocol" "^0.0.21"
     "@types/json-schema" "^7.0.15"
