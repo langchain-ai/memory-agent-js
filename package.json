@@ -23,7 +23,11 @@
     "handlebars": "4.7.10",
     "picomatch": "^2.3.2",
     "qs": "^6.16.1",
-    "uuid": "^11.1.1"
+    "uuid": "^11.1.1",
+    "**/@jest/reporters/glob/minimatch": "11.0.1",
+    "**/jest-config/glob/minimatch": "11.0.1",
+    "**/jest-runtime/glob/minimatch": "11.0.1",
+    "**/test-exclude/**/minimatch": "11.0.1"
   },
   "scripts": {
     "build": "tsc",
