@@ -1636,18 +1636,18 @@
     p-queue "^6.6.2"
     zod "^3.25.76 || ^4"
 
-"@langchain/google-common@2.3.4":
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/@langchain/google-common/-/google-common-2.3.4.tgz#e3d0b33061d55a6e51179d5c79e1e9bbb79fb242"
-  integrity sha512-vqECQen2nNSnDExbu4FKSpQemv/GB+jziqpoDt5lfqqZD1U8w4ugw1dCjoCl62hL334ec/T1YqT9vCKTjmyd1g==
+"@langchain/google-common@2.3.6":
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/@langchain/google-common/-/google-common-2.3.6.tgz#a62728c17af7b894209d0a92a20c5f57050a7d9e"
+  integrity sha512-1VwYkuNS7OWy+T0W/PMBWw5VtyEcEk/8wUAKujLwC7C/mWvJyiCL4G1ldAM0NzROkzAJWeg+VymfbzQcS6c5ag==
 
-"@langchain/google-gauth@2.3.4":
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/@langchain/google-gauth/-/google-gauth-2.3.4.tgz#adcaf39e52466c4d39046db255793fd84ae04734"
-  integrity sha512-O0LbvjudRaHeYKjC6e33DDzvGRWy7mxsjeaCTAaTzHJBT8+/ZFcgQF0pMWT7k5IWuw0lEdHutRDH+bvNKZTqDw==
+"@langchain/google-gauth@2.3.6":
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/@langchain/google-gauth/-/google-gauth-2.3.6.tgz#1467fbe91a9889d201e5eaa1503e576d5f514196"
+  integrity sha512-3Jqkm7nT9PhjU6Sv2vvn2xfe8z7LQkZgaq549QUe4DQ3d5FhG/mqfwiCdpvSliQ8ZwC/b9sNJBeoAEQUETjuxg==
   dependencies:
-    "@langchain/google-common" "2.3.4"
-    google-auth-library "^11.1.0"
+    "@langchain/google-common" "2.3.6"
+    google-auth-library "^11.3.2"
 
 "@langchain/google-genai@^2.3.6":
   version "2.3.6"
@@ -1656,12 +1656,12 @@
   dependencies:
     "@google/generative-ai" "^0.24.1"
 
-"@langchain/google-vertexai@^2.3.4":
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/@langchain/google-vertexai/-/google-vertexai-2.3.4.tgz#17ae96cac1054ca90bb06400208f3130371c3b0e"
-  integrity sha512-T1dIr9Snto5iEvIVgXC8KraDnvZlBIdjKWGO4KLNAgGR0f2ZVmE+JRNANVN4CmMPFDOcFckgVjqA0WGHP7PHdQ==
+"@langchain/google-vertexai@^2.3.6":
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/@langchain/google-vertexai/-/google-vertexai-2.3.6.tgz#029a369584983663f787811292f5339972c3418c"
+  integrity sha512-q3llzZF49hU8QSryP6wktuGNBOzXZdjL/tG+0gwNALzwYVKQvjlq26WvM05b5e30HovhEVLM2Gtm6QfvsTFyYA==
   dependencies:
-    "@langchain/google-gauth" "2.3.4"
+    "@langchain/google-gauth" "2.3.6"
 
 "@langchain/groq@^1.3.1":
   version "1.3.1"
@@ -4434,10 +4434,10 @@ globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
-google-auth-library@^11.1.0:
-  version "11.3.2"
-  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-11.3.2.tgz#5f4fa2a03c983ddd6c9a5b0e2ed32323b3cfb68e"
-  integrity sha512-rbm+5boOZzFvDFg2tvCGkgHtG+RrmDqCDi6voK+ILpoCDqGxxc5pcMH6WZzCQXGNqQqZcYJl5WNvb159rkriuA==
+google-auth-library@^11.3.2:
+  version "11.3.4"
+  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-11.3.4.tgz#4feb24f095b478290c210644ff32aadbd7e243b2"
+  integrity sha512-RaYCDoeYIIFTRgH8hesSxqLrmtC2l+DB3cSCS/SN1TPGjI2VpPdJmF3bfRLUn8VvP/4I2Af9fsktw2f9SvVSVg==
   dependencies:
     base64-js "^1.3.0"
     ecdsa-sig-formatter "^1.0.11"
